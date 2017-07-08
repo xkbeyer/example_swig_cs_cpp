@@ -1,0 +1,34 @@
+# Ignore some of the VC++ user-files
+*.vcxproj.user
+*.sdf
+*.suo
+*.ilk
+*.pdb
+*.exe
+*.lib
+*.docstates
+*.log
+*.ex*
+*.opensdf
+*.psess
+*.vspx
+*.VC.db
+**/.vs
+
+# Ignore the VC++ build folders
+**/ipch/
+**/Debug
+**/Release
+**/lib/
+
+# And some system's temp files
+*~
+*.tmp
+*.bak
+*.swp*
+*.dll
+
+# Other artifacts not to track
+*.txt
+*.org
+*.cppcheck
